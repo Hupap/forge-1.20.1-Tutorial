@@ -1,0 +1,14 @@
+{
+  "item.tutorial.sapphire": "Sapphire",
+  "item.tutorial.raw_sapphire": "Raw Sapphire",
+
+  "block.tutorial.sapphire_block": "Block of Sapphire",
+  "block.tutorial.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "block.tutorial.sapphire_ore": "Sapphire Ore",
+  "block.tutorial.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.tutorial.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.tutorial.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+
+  "creativtab.tutorial_tab": "Tutorial Tab"
+}
