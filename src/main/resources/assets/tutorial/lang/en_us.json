@@ -13,8 +13,10 @@
   "block.tutorial.end_stone_sapphire_ore": "Endstone Sapphire Ore",
 
   "block.tutorial.sound_block": "Sound Block",
-  "block.tutorial.strawberry": "Strawberry",
+  "item.tutorial.strawberry": "Strawberry",
   "item.tutorial.pine_cone": "Pine Cone",
+
+  "tooltip.tutorial.metal_detector.tooltip": "Finds valuables underground!",
 
   "creativtab.tutorial_tab": "Tutorial Tab"
 }
