@@ -2,9 +2,6 @@ package net.jannik.tutorial.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
@@ -28,13 +25,13 @@ public class SoundBlock extends Block {
     @Override
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
 
-        pLevel.playSound(pPlayer, pPos, SoundEvents.NOTE_BLOCK_DIDGERIDOO.get(), SoundSource.BLOCKS, 1f, 1f) ;
+        pLevel.explode(null, pPos.getX()+0.5, pPos.getY()+0.5, pPos.getZ()+0.5, 10F, Level.ExplosionInteraction.TNT);
         return (InteractionResult.SUCCESS);
     }
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
-        pTooltip.add(Component.literal("Makes sound when right-cklicked!"));
+        pTooltip.add(Component.literal("Explodes when right-cklicked!"));
         super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
     }
 }

@@ -1,11 +1,31 @@
 {
   "item.tutorial.sapphire": "Sapphire",
   "item.tutorial.raw_sapphire": "Raw Sapphire",
-
   "item.tutorial.metal_detector": "Metal Detector",
 
   "block.tutorial.sapphire_block": "Block of Sapphire",
   "block.tutorial.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "item.tutorial.sapphire_sword": "Sapphire Sword",
+  "item.tutorial.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.tutorial.sapphire_axe": "Sapphire Axe",
+  "item.tutorial.sapphire_shovel": "Sapphire Shovel",
+  "item.tutorial.sapphire_hoe": "Sapphire Hoe",
+
+  "item.tutorial.sapphire_helmet": "Sapphire Helmet",
+  "item.tutorial.sapphire_chestplate": "Sapphire Chestplate",
+  "item.tutorial.sapphire_leggings": "Sapphire Leggings",
+  "item.tutorial.sapphire_boots": "Sapphire Boots",
+
+  "block.tutorial.sapphire_stairs": "Sapphire Stairs",
+  "block.tutorial.sapphire_slab": "Sapphire Slab",
+  "block.tutorial.sapphire_button": "Sapphire Button",
+  "block.tutorial.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.tutorial.sapphire_fence": "Sapphire Fence",
+  "block.tutorial.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.tutorial.sapphire_wall": "Sapphire Wall",
+  "block.tutorial.sapphire_door": "Sapphire Door",
+  "block.tutorial.sapphire_trapdoor": "Sapphire Trapdoor",
 
   "block.tutorial.sapphire_ore": "Sapphire Ore",
   "block.tutorial.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
@@ -15,6 +35,7 @@
   "block.tutorial.sound_block": "Sound Block",
   "item.tutorial.strawberry": "Strawberry",
   "item.tutorial.pine_cone": "Pine Cone",
+  "item.tutorial.sapphire_staff": "Sapphire Staff",
 
   "tooltip.tutorial.metal_detector.tooltip": "Finds valuables underground!",
 
